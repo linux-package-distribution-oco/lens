@@ -7,5 +7,6 @@ kind = "lens"
 parent = "open-commons-observatory"
 
 [exports]
+glimpses = "linux-package-distribution-oco/glimpses.json"
 translations = "translations.json"
 session_log = "session_log.json"
