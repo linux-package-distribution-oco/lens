@@ -1,0 +1,11 @@
+schema = 1
+[project]
+id = "linux-package-distribution-oco/lens"
+name = "Package distribution: one conveyor, called not copied"
+title = "Package distribution lens"
+kind = "lens"
+parent = "open-commons-observatory"
+
+[exports]
+translations = "translations.json"
+session_log = "session_log.json"

@@ -1,0 +1,37 @@
+# The package conveyor's lens (ocoeco SPEC.md section 8).
+schema = 1
+
+[lens]
+title = "Package distribution"
+goal = "one conveyor, called not copied"
+
+[family]
+owners = ["linux-package-distribution-oco"]
+
+[[view]]
+id = "index"
+title = "Essence"
+kind = "essence"
+project = "linux-package-distribution-oco/conveyor"
+subject = "linux-package-distribution"
+
+[[view]]
+id = "idea"
+title = "The idea"
+kind = "idea"
+project = "linux-package-distribution-oco/conveyor"
+
+[[view]]
+id = "ideas"
+title = "Concepts and decisions"
+kind = "ideas"
+
+[[view]]
+id = "backlog"
+title = "Backlog"
+kind = "backlog"
+
+[[view]]
+id = "log"
+title = "Log"
+kind = "log"
